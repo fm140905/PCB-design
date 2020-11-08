@@ -1,0 +1,87 @@
+FILE_TYPE=LIBRARY_PARTS;
+{ Using PSTWRITER 16.6.0 d001Nov-04-2020 at 17:33:31}
+primitive 'CC1206KRX7R9BB103_CAPC3216X95N_';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CC1206KRX7R9BB103';
+    JEDEC_TYPE='CAPC3216X95N';
+    VALUE='CC1206KRX7R9BB103';
+  end_body;
+end_primitive;
+primitive 'CON6A_0_SMD_570_CS_SIPM';
+  pin
+    'A2':
+      PIN_NUMBER='(A2)';
+      PINUSE='UNSPEC';
+    'A3':
+      PIN_NUMBER='(A3)';
+      PINUSE='UNSPEC';
+    'B1':
+      PIN_NUMBER='(B1)';
+      PINUSE='UNSPEC';
+    'B3':
+      PIN_NUMBER='(B3)';
+      PINUSE='UNSPEC';
+    'C1':
+      PIN_NUMBER='(C1)';
+      PINUSE='UNSPEC';
+    'C3':
+      PIN_NUMBER='(C3)';
+      PINUSE='UNSPEC';
+    'A1':
+      PIN_NUMBER='(A1)';
+      PINUSE='UNSPEC';
+    'C2':
+      PIN_NUMBER='(C2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CON6A_0';
+    JEDEC_TYPE='smd_570_CS';
+    VALUE='SiPM';
+  end_body;
+end_primitive;
+primitive '77313_101_04LF_HDRV4W62P254_2X2';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='77313_101_04LF';
+    JEDEC_TYPE='HDRV4W62P254_2X2_508X483X858P';
+    VALUE='77313_101_04LF';
+  end_body;
+end_primitive;
+primitive 'RC1206FR_0749R9L_RESC3116X65N_R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RC1206FR_0749R9L';
+    JEDEC_TYPE='RESC3116X65N';
+    VALUE='RC1206FR_0749R9L';
+  end_body;
+end_primitive;
+END.

@@ -1,0 +1,15 @@
+{ Using PSTWRITER 16.6.0 d001Nov-04-2020 at 17:33:30 }
+
+#1 WARNING(ORCAP-36006): Part Name "CC1206KRX7R9BB103_CAPC3216X95N_CC1206KRX7R9BB103" is renamed to "CC1206KRX7R9BB103_CAPC3216X95N_".
+#2 WARNING(ORCAP-36006): Part Name "77313_101_04LF_HDRV4W62P254_2X2_508X483X858P_77313_101_04LF" is renamed to "77313_101_04LF_HDRV4W62P254_2X2".
+#3 WARNING(ORCAP-36006): Part Name "RC1206FR_0749R9L_RESC3116X65N_RC1206FR_0749R9L" is renamed to "RC1206FR_0749R9L_RESC3116X65N_R".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... C:\Users\mingf2\Documents\singleSiPM/pstchip.dat
+
+Loading... C:\Users\mingf2\Documents\singleSiPM/pstchip.dat
+
+Loading... C:\Users\mingf2\Documents\singleSiPM/pstxprt.dat
+
+Loading... C:\Users\mingf2\Documents\singleSiPM/pstxnet.dat
+packaging the design view...

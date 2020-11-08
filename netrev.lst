@@ -1,0 +1,103 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : SINGLESIPM.brd                                )
+(    Software Version : 16.6P004                                      )
+(    Date/Time        : Wed Nov 04 17:33:32 2020                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------
+
+RIPUP_ETCH FALSE;
+RIPUP_DELETE_FIRST_SEGMENT FALSE;
+RIPUP_RETAIN_BONDWIRE FALSE;
+RIPUP_SYMBOLS ALWAYS;
+Missing symbol has error FALSE;
+SCHEMATIC_DIRECTORY 'C:\Users\mingf2\Documents\singleSiPM';
+BOARD_DIRECTORY 'C:/USERS/MINGF2/DOCUMENTS/SINGLESIPM/allegro';
+OLD_BOARD_NAME 'C:/USERS/MINGF2/DOCUMENTS/SINGLESIPM/allegro/SINGLESIPM.brd';
+NEW_BOARD_NAME 'C:/USERS/MINGF2/DOCUMENTS/SINGLESIPM/allegro/SINGLESIPM.brd';
+
+CmdLine: netrev.exe -y 1 -n -i C:\Users\mingf2\Documents\singleSiPM C:\USERS\MINGF2\DOCUMENTS\SINGLESIPM\allegro\SINGLESIPM.brd C:\USERS\MINGF2\DOCUMENTS\SINGLESIPM\allegro\SINGLESIPM.brd
+
+------ Preparing to read pst files ------
+
+Starting to read C:/Users/mingf2/Documents/singleSiPM/pstchip.dat 
+   Finished reading C:/Users/mingf2/Documents/singleSiPM/pstchip.dat (00:00:00.04)
+Starting to read C:/Users/mingf2/Documents/singleSiPM/pstxprt.dat 
+   Finished reading C:/Users/mingf2/Documents/singleSiPM/pstxprt.dat (00:00:00.00)
+Starting to read C:/Users/mingf2/Documents/singleSiPM/pstxnet.dat 
+   Finished reading C:/Users/mingf2/Documents/singleSiPM/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           C:/Cadence/SPB_16.6/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           C:/Users/mingf2/Downloads/ST4-40-1.00-L-D-P-TR/ 
+           C:/USERS/MINGF2/Downloads/SS4-40-3.00-X-D-K-TR/ 
+           C:/Users/mingf2/Desktop/SMD_570CS/ 
+           C:/Users/mingf2/Documents/PCB/67996-272HLF/ 
+           C:/Users/mingf2/Documents/singleSiPM/LIB_77313-101-04LF/77313-101-04LF/OrCAD_Allegro16/ 
+           C:/Users/mingf2/Documents/singleSiPM/LIB_RC1206FR-0749R9L/RC1206FR-0749R9L/OrCAD_Allegro16/ 
+           C:/Users/mingf2/Documents/singleSiPM/LIB_CC1206KRX7R9BB103/CC1206KRX7R9BB103/OrCAD_Allegro16/ 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           C:/Cadence/SPB_16.6/share/local/pcb/padstacks 
+           C:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           C:/Users/mingf2/Downloads/ST4-40-1.00-L-D-P-TR/ 
+           C:/USERS/MINGF2/DOWNLOADS/SS4-40-3.00-X-D-K-TR/ 
+           C:/Users/mingf2/Desktop/SMD_570CS/ 
+           C:/Users/mingf2/Documents/PCB/67996-272HLF/ 
+           C:/Users/mingf2/Documents/singleSiPM/LIB_77313-101-04LF/77313-101-04LF/OrCAD_Allegro16/ 
+           C:/Users/mingf2/Documents/singleSiPM/LIB_RC1206FR-0749R9L/RC1206FR-0749R9L/OrCAD_Allegro16/ 
+           C:/Users/mingf2/Documents/singleSiPM/LIB_CC1206KRX7R9BB103/CC1206KRX7R9BB103/OrCAD_Allegro16/ 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Nov 4 17:33:32 2020
+   DESIGN NAME : 'SINGLESIPM'
+   PACKAGING ON Sep 10 2012 04:46:09
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:55
+elapsed time  0:00:00
+

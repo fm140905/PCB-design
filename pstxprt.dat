@@ -1,0 +1,60 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Nov-04-2020 at 17:33:31 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='SINGLESIPM';
+ POST_TIME='Sep 10 2012 04:46:09';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CC1206KRX7R9BB103_CAPC3216X95N_':;
+
+SECTION_NUMBER 1
+ '@SINGLESIPM.SCHEMATIC1(SCH_1):INS1202@CC1206KRX7R9BB103.CC1206KRX7R9BB103.NORMAL(CHIPS)':
+ C_PATH='@singlesipm.schematic1(sch_1):ins1202@cc1206krx7r9bb103.\cc1206krx7r9bb103.normal\(chips)',
+ P_PATH='@singlesipm.schematic1(sch_1):page1_ins1202@cc1206krx7r9bb103.\cc1206krx7r9bb103.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'CON6A_0_SMD_570_CS_SIPM':;
+
+SECTION_NUMBER 1
+ '@SINGLESIPM.SCHEMATIC1(SCH_1):INS84@SINGLESIPM.CON6A_0.NORMAL(CHIPS)':
+ C_PATH='@singlesipm.schematic1(sch_1):ins84@singlesipm.\con6a_0.normal\(chips)',
+ P_PATH='@singlesipm.schematic1(sch_1):page1_ins84@singlesipm.\con6a_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 '77313_101_04LF_HDRV4W62P254_2X2':;
+
+SECTION_NUMBER 1
+ '@SINGLESIPM.SCHEMATIC1(SCH_1):INS714@77313_101_04LF.77313_101_04LF.NORMAL(CHIPS)':
+ C_PATH='@singlesipm.schematic1(sch_1):ins714@\77313_101_04lf\.\77313_101_04lf.normal\(chips)',
+ P_PATH='@singlesipm.schematic1(sch_1):page1_ins714@\77313_101_04lf\.\77313_101_04lf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RC1206FR_0749R9L_RESC3116X65N_R':;
+
+SECTION_NUMBER 1
+ '@SINGLESIPM.SCHEMATIC1(SCH_1):INS1137@RC1206FR_0749R9L.RC1206FR_0749R9L.NORMAL(CHIPS)':
+ C_PATH='@singlesipm.schematic1(sch_1):ins1137@rc1206fr_0749r9l.\rc1206fr_0749r9l.normal\(chips)',
+ P_PATH='@singlesipm.schematic1(sch_1):page1_ins1137@rc1206fr_0749r9l.\rc1206fr_0749r9l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RC1206FR_0749R9L_RESC3116X65N_R':;
+
+SECTION_NUMBER 1
+ '@SINGLESIPM.SCHEMATIC1(SCH_1):INS1155@RC1206FR_0749R9L.RC1206FR_0749R9L.NORMAL(CHIPS)':
+ C_PATH='@singlesipm.schematic1(sch_1):ins1155@rc1206fr_0749r9l.\rc1206fr_0749r9l.normal\(chips)',
+ P_PATH='@singlesipm.schematic1(sch_1):page1_ins1155@rc1206fr_0749r9l.\rc1206fr_0749r9l.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.

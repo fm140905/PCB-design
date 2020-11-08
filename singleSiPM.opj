@@ -1,0 +1,121 @@
+(ExpressProject "singleSiPM"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\singlesipm.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "C:\Users\mingf2\Documents\singleSiPM")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" "allegro\SINGLESIPM.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Output Warnings" "TRUE")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Netlist_TAB "0"))
+  (Folder "Outputs"
+    (File ".\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (CC1206KRX7R9BB103
+      (FullPartName "CC1206KRX7R9BB103.Normal")
+      (LibraryName
+         "C:\USERS\MINGF2\DOCUMENTS\SINGLESIPM\LIB_CC1206KRX7R9BB103\CC1206KRX7R9BB103\ORCAD_ALLEGRO16\CC1206KRX7R9BB103.OLB")
+      (DeviceIndex "0"))
+    (RC1206FR_0749R9L
+      (FullPartName "RC1206FR_0749R9L.Normal")
+      (LibraryName
+         "C:\USERS\MINGF2\DOCUMENTS\SINGLESIPM\LIB_RC1206FR-0749R9L\RC1206FR-0749R9L\ORCAD_ALLEGRO16\RC1206FR_0749R9L.OLB")
+      (DeviceIndex "0"))
+    (RESISTOR/SM
+      (FullPartName "RESISTOR/SM.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    ("RESISTOR DIP 2 A-B"
+      (FullPartName "RESISTOR DIP 2 A-B.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (77313_101_04LF
+      (FullPartName "77313_101_04LF.Normal")
+      (LibraryName
+         "C:\USERS\MINGF2\DOCUMENTS\SINGLESIPM\LIB_77313-101-04LF\77313-101-04LF\ORCAD_ALLEGRO16\77313_101_04LF.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (CON4A
+      (FullPartName "CON4A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (CON6A
+      (FullPartName "CON6A.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (B2S
+      (FullPartName "B2S.Normal")
+      (LibraryName "C:\CADENCE\SPB_16.6\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\mingf2\Documents\singleSiPM\LIB_CC1206KRX7R9BB103\CC1206KRX7R9BB103\OrCAD_Allegro16")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\USERS\MINGF2\DOCUMENTS\singleSiPM\singlesipm.dsn")
+      (Path "Design Resources"
+         "C:\USERS\MINGF2\DOCUMENTS\singleSiPM\singlesipm.dsn" "SCHEMATIC1")
+      (Path "Design Resources"
+         "C:\USERS\MINGF2\DOCUMENTS\singleSiPM\singlesipm.dsn" "Design Cache")
+      (Path "Outputs")
+      (Select "Design Resources"
+         "C:\USERS\MINGF2\DOCUMENTS\singleSiPM\singlesipm.dsn" "SCHEMATIC1"
+         "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 0 200 0 504"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 50 1367 50 592")
+        (Scroll "0 0")
+        (Zoom "104")
+        (Occurrence "/"))
+      (Path "C:\USERS\MINGF2\DOCUMENTS\SINGLESIPM\SINGLESIPM.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (ISPCBBASICLICENSE "false")
+  (MPSSessionName "mingf2"))
